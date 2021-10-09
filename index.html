@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>ProToHR</title>
+</head>
+<body>
+    <header class="header" id="header">
+      <div class="header-top">
+        <div class="container-wide">
+          <button class="toggle-nav-open"
+            aria-controls="nav"
+            aria-expanded="true"
+            >
+            <img src="/img/icons/nav-open.svg" alt="">
+          </button>
+          <nav class="nav" id="nav">
+            <button class="toggle-nav-close"
+            aria-controls="nav"
+            aria-expanded="false"
+            >
+              <img src="/img/icons/nav-close.svg" alt="">
+            </button>
+            <a class="nav__item" href="#header">
+              Главная
+            </a>
+            <a class="nav__item" href="#about">
+              почему мы
+            </a>
+            <a class="nav__item" href="#call__back">
+              обратный звонок
+            </a>
+            <a class="nav__item" href="#footer">
+              контакты
+            </a>
+            <a class="nav__linkedin" href="https://www.linkedin.com/">
+              <img src="/img/icons/linked_in.svg" alt="">
+            </a>
+            <a class="nav__viber" href="https://www.viber.com/">
+              <img src="/img/icons/viber.svg" alt="">
+            </a>
+            <a class="nav__telegram" href="https://web.telegram.org/k/">
+              <img src="/img/icons/telegram.svg" alt="">
+            </a>
+            <p class="number">
+              +38 (093) 123-45-67
+            </p>
+          </nav>          
+        </div>
+      </div> 
+      <div class="container">
+        <div class="home">
+          <div class="women2">
+            <img src="/img/women2.png" alt="">
+          </div>
+          <div class="home__descr">
+            <div class="logo">
+              <img src="/img/logo.png" alt="">
+              <div class="home__info">
+                <h2>
+                  рекрутинговое агенство для успешных компаний
+                </h2>
+                <div class="home__icons">
+                  <a class="home__icons__linkedin" href="https://www.linkedin.com/">
+                    <img src="/img/icons/linked_in.svg" alt="">
+                  </a>
+                  <a class="home__icons__viber" href="https://www.viber.com/">
+                    <img src="/img/icons/viber.svg" alt="">
+                  </a>
+                  <a class="home__icons__telegram" href="https://web.telegram.org/k/">
+                    <img src="/img/icons/telegram.svg" alt="">
+                  </a>
+                </div>
+                <button href="#popup" class="find" id="find">
+                  найти сотрудника
+                </button>                
+              </div>
+            </div>
+          </div>   
+          <div class="women">
+            <img src="/img/women.png" alt="">
+          </div>
+        </div>        
+      </div>
+      <div class="popup" id="popup">
+        <div class="popup__body">
+          <div class="popup__content">
+            <a class="popup__close" ><img src="/img/icons/nav-close.svg" alt=""></a>
+            <div class="popup__title">
+              <h2>Отправить форму</h2>
+            </div>
+            <div class="popup__form">
+              <form class="form" action="#" method="get" enctype="multipart/form-data">
+                <div class="form__name">
+                  <p>имя</p>
+                  <input placeholder="ваше имя" id="username" type="text" name="username" value="">
+                </div>                  
+                <div class="form__f_e">
+                  <div class="form__phone">
+                    <p>телефон</p>
+                    <input placeholder="ваш телефон" id="phone" type="tel" name="phone" value="">
+                  </div>
+                  <div class="form__email">
+                    <p>E-mail</p>
+                    <input placeholder="ваш email" id="email" type="email" name="email" value="">                      
+                  </div>                    
+                </div>   
+                <div class="form__message">
+                  <p>текст</p>
+                  <textarea placeholder="ваше сообщение" name="message"></textarea>
+                </div> 
+                <button type="submit" class="submit__btn">отправить</button>              
+              </form>
+            </div>         
+          </div>  
+        </div>
+      </div>     
+    </header>
+    <section class="about" id="about">
+      <div class="line"></div> 
+      <h2>
+        Почему мы?
+      </h2> 
+      <div class="about__row element-animation">
+        <div class="row__money">
+          <img src="/img/icons/money.svg" alt="">
+          <p>
+            Экономия средств
+          </p>
+          <p>
+            За годы практики мы на работали 
+            крупную клиентскую базу
+          </p>
+        </div>
+        <div class="row__money">
+          <img src="/img/icons/clock.svg" alt="">
+          <p>
+            Экономия времени
+          </p>
+          <p>
+            Весь процесс, от поиска кандидата до проведения 
+            собеседования и тестирований мы берем на себя
+          </p>
+        </div>
+        <div class="row__money">
+          <img src="/img/icons/shield.svg" alt="">
+          <p>
+            гарантия
+          </p>
+          <p>
+            мы не берем предоплат,
+            вы оплачиваете результат
+          </p>
+        </div>
+        <div class="row__money">
+          <img src="/img/icons/support.svg" alt="">
+          <p>
+            личный консультант
+          </p>
+          <p>
+            у вас будет личный консультант
+            готовый к контакту 24/7
+          </p>
+        </div>
+        <div class="row__money">
+          <img src="/img/icons/brain.svg" alt="">
+          <p>
+            разумный выбор
+          </p>
+          <p>
+            выбрав нас вы можете быть уверены на 100% что мы подберем наилучшего кандидата для вас
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="call__back" id="call__back">
+      <div class="line"></div> 
+      <div class="call_block">
+      <h2>
+        обратный звонок
+      </h2> 
+      <button class="call__btn" id="call__btn">
+        заказать
+      </button>
+      <div class="modal" id="modal">
+        <div class="modal__body">
+          <a class="modal__close" ><img src="/img/icons/nav-close.svg" alt=""></a>
+          <div class="modal-content">
+            <form method="get" action="#" enctype="multipart/form-data">
+              <div class="modal__inform">
+                <input type="tel" placeholder="ваш телефон" id="telephone" type="tel" name="phone" value="">
+                <button class="call__back__btn" type="submit">заказать звонок</button>
+              </div>              
+            </form>            
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <footer class="footer" id="footer">
+      <div class="footer__block">
+        <div class="footer__text">        
+          <p>
+            наш Email:
+          </p>
+          <p class="email">
+            email@protohr.com
+          </p>
+          <div class="line"></div>
+          <p class="phone">
+            +38 (093) 123-45-67
+          </p>
+      </div>
+        <div class="footer__icons">
+          <a class="footer__icon__linkedin" href="https://www.linkedin.com/"><img src="/img/icons/linked_in_w.svg" alt=""></a>
+          <a class="footer__icon__viber" href="https://www.viber.com/"><img src="/img/icons/viber_w.svg" alt=""></a>
+          <a class="footer__icon__telegram" href="https://web.telegram.org/k/"><img src="/img/icons/telegram_w.svg" alt=""></a>
+        </div>
+      </div>
+      <p class="rights">
+        © 2021 Template by Artem Tsalapov. All rights reserved.
+      </p>      
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
